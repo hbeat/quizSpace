@@ -3,8 +3,8 @@ from django.shortcuts import render
 
 # Create your views here.
 from rest_framework import generics, serializers, viewsets
-from .models import Quiz
-from .serializers import QuizSerializer, UserSerializer
+from .models import Category, Quiz
+from .serializers import CategorySerializer, QuizSerializer, UserSerializer
 
 # class ListQuiz(generics.ListAPIView):
 #     queryset = Quiz.objects.all()
@@ -27,6 +27,9 @@ class QuizViewSet(viewsets.ModelViewSet):
     queryset = Quiz.objects.all()
     serializer_class = QuizSerializer
 
+class CategoryViewSet(viewsets.ModelViewSet):
+    queryset = Category.objects.all()
+    serializer_class = CategorySerializer
 class UserViewSet(viewsets.ModelViewSet):
     queryset = get_user_model().objects.all()
     serializer_class = UserSerializer

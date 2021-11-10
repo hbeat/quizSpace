@@ -11,3 +11,11 @@ class Quiz(models.Model):
 #ID
     def __str__(self):
         return self.title+" "+self.creator
+
+class Category(models.Model):
+    name = models.CharField(max_length=50)
+    image = models.ImageField()
+    detail = models.CharField(max_length=50)
+
+    def __str__(self):
+        return self.name
