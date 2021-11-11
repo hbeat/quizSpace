@@ -2,9 +2,9 @@ from django.contrib.auth import get_user_model
 from django.shortcuts import render
 
 # Create your views here.
-from rest_framework import generics, serializers, viewsets
-from .models import Category, Quiz
-from .serializers import CategorySerializer, QuizSerializer, UserSerializer
+from rest_framework import generics, viewsets
+from .models import Category, Question, Quiz
+from .serializers import CategorySerializer, QuestionSerializer, QuizSerializer, UserSerializer
 
 # class ListQuiz(generics.ListAPIView):
 #     queryset = Quiz.objects.all()
@@ -27,9 +27,14 @@ class QuizViewSet(viewsets.ModelViewSet):
     queryset = Quiz.objects.all()
     serializer_class = QuizSerializer
 
+class QuestionViewSet(viewsets.ModelViewSet):
+    queryset = Question.objects.all()
+    serializer_class = QuestionSerializer
+
 class CategoryViewSet(viewsets.ModelViewSet):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
 class UserViewSet(viewsets.ModelViewSet):
     queryset = get_user_model().objects.all()
     serializer_class = UserSerializer
+
