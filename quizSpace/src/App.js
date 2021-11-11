@@ -2,9 +2,9 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import Menu from "./pages/Menu";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Quizzes from "./pages/Quizzes";
+import CreateQuiz from "./pages/CreateQuiz"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -14,9 +14,9 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/menu" exact component={Menu} />
           <Route path="/about" exact component={About} />
-          <Route path="/contact" exact component={Contact} />
+          <Route path="/quizzes" exact component={Quizzes} />
+          <Route path="/createquiz" exact component={CreateQuiz}/>
         </Switch>
         <Footer />
       </Router>
