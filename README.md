@@ -1,4 +1,4 @@
-<h4>Developing in progress</h4>
+<h4>Developing in progress...</h4>
 <h3 align="center">Project Details</h3>
 **In the quizSpace folder it is where the frontend code are contained:**
 <h4>-Delete yarn.lock file</h4>
