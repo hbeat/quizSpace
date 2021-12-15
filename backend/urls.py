@@ -5,7 +5,7 @@ from rest_framework.routers import SimpleRouter
 router = SimpleRouter()
 router.register('users',UserViewSet,basename = 'users')
 router.register('category',CategoryViewSet,basename='category')
-router.register('',QuizViewSet, basename='quizes')
+router.register('quiz',QuizViewSet, basename='quiz')
 
 urlpatterns = router.urls
 
