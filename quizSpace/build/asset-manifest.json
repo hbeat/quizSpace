@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.964175d5.chunk.css",
+    "main.js": "/static/js/main.3fb9013e.chunk.js",
+    "main.js.map": "/static/js/main.3fb9013e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9a2b1ed0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9a2b1ed0.js.map",
+    "static/js/2.525a85d5.chunk.js": "/static/js/2.525a85d5.chunk.js",
+    "static/js/2.525a85d5.chunk.js.map": "/static/js/2.525a85d5.chunk.js.map",
+    "static/js/3.c09caf6a.chunk.js": "/static/js/3.c09caf6a.chunk.js",
+    "static/js/3.c09caf6a.chunk.js.map": "/static/js/3.c09caf6a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.964175d5.chunk.css.map": "/static/css/main.964175d5.chunk.css.map",
+    "static/js/2.525a85d5.chunk.js.LICENSE.txt": "/static/js/2.525a85d5.chunk.js.LICENSE.txt",
+    "static/media/aboutBackground.d265b58c.jpg": "/static/media/aboutBackground.d265b58c.jpg",
+    "static/media/algebraBanner.79a82c61.jpg": "/static/media/algebraBanner.79a82c61.jpg",
+    "static/media/calculusBanner.03f62b03.jpg": "/static/media/calculusBanner.03f62b03.jpg",
+    "static/media/finalPage.faff1866.mp4": "/static/media/finalPage.faff1866.mp4",
+    "static/media/javaBanner.82b14879.jpg": "/static/media/javaBanner.82b14879.jpg",
+    "static/media/pythonBanner.da0a15cc.jpg": "/static/media/pythonBanner.da0a15cc.jpg",
+    "static/media/quizLogo.74a30034.png": "/static/media/quizLogo.74a30034.png",
+    "static/media/trigonometryBanner.0414d373.jpg": "/static/media/trigonometryBanner.0414d373.jpg",
+    "static/media/video.e86494e4.mp4": "/static/media/video.e86494e4.mp4",
+    "static/media/webBanner.47ffab5a.jpg": "/static/media/webBanner.47ffab5a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a2b1ed0.js",
+    "static/js/2.525a85d5.chunk.js",
+    "static/css/main.964175d5.chunk.css",
+    "static/js/main.3fb9013e.chunk.js"
+  ]
+}

@@ -1,7 +1,7 @@
-from django.db.models import fields
 from rest_framework import serializers
-from .models import Category, Quiz
+from .models import Category, Quiz, Question 
 from django.contrib.auth import get_user_model
+
 class QuizSerializer(serializers.ModelSerializer):
     class Meta:
         model = Quiz
@@ -16,3 +16,12 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = get_user_model()
         fields = ('id','username',)
+
+class QuestionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Question
+        fields = ('id','question','options','answer',)
+# class QuestionSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = Question
+#         fields = '__all__'
