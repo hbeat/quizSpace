@@ -1,3 +1,4 @@
+
 .home {
   width: 100%;
   height: 90vh;
@@ -13,7 +14,19 @@
 
 .headerContainer {
   width: auto;
+  height:50vh;
   margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.headerContainer video{
+  object-fit: cover;
+  width:auto;
+  height:auto;
+  position: fixed;
+  z-index:-2 ;
+  top:0;
+  left:0;
 }
 
 .headerContainer h1 {
@@ -22,14 +35,14 @@
   font-size: 90px;
   height: 60px;
   font-weight: 50;
-  color: black;
+  color:white;
 }
 
 .headerContainer p {
   padding: 0;
   font-size: 40px;
   font-weight: lighter;
-  color: black;
+  color:lightblue;
 }
 
 .headerContainer button {
@@ -38,7 +51,7 @@
   border-radius: 5px;
   cursor: pointer;
   justify-content: center;
-  background-color: #121619;
+  background-color: blue;
   height: 50px;
   width: 180px;
   color: white;
@@ -52,13 +65,55 @@
   transition: 0.3s ease-in;
 }
 
+.bodyContainer{
+  width: 100%;
+  height:40vh;
+}
+
+.bodyContainer h1 {
+  text-align: right;
+  font-size: 70px;
+  height: 60px;
+  font-weight: 50;
+  color:white;
+  padding-right: 50px;
+  z-index: 1;
+}
+.bodyContainer button {
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: blue;
+  height: 50px;
+  width: 180px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  float: right;
+  margin-right:50px;
+}
+
+.bodyContainer button:hover {
+  background-color:blue;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  color:white;
+}
+
+.bodyContainer p {
+  text-align: right;
+  padding-right: 50px;
+  font-size: 40px;
+  font-weight: lighter;
+  color:lightblue;
+}
+
 @media only screen and (max-width: 650px) {
   .home {
     justify-content: center;
     align-items: center;
-  }
-  .headerContainer h1,
-  .headerContainer p {
   }
 
   .headerContainer {
@@ -92,6 +147,41 @@
   }
 
   .headerContainer button:hover {
+    background-color: rgb(225, 225, 225);
+    color: #121619;
+  }
+
+  .bodyContainer {
+    margin-left: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #121619;
+    color: white;
+  }
+
+  .bodyContainer h1 {
+    font-size: 40px;
+    height: 30px;
+    color: white;
+  }
+
+  .bodyContainer p {
+    font-size: 25px;
+    color: white;
+  }
+
+  .bodyContainer button {
+    background-color: white;
+    color: #121619;
+    margin-bottom: 30px;
+  }
+
+  .bodyContainer button:hover {
     background-color: rgb(225, 225, 225);
     color: #121619;
   }

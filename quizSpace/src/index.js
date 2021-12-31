@@ -2,11 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import App from "./App";
+import { CanvasProvider } from "./components/CanvasContext";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
+    <CanvasProvider>
     <App />
+    </CanvasProvider>
+    
   </React.StrictMode>,
   document.getElementById("root")
 );
