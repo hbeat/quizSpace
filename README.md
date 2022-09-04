@@ -1,4 +1,4 @@
-<h2 align="center">Project Details</h2>
+# [Project Details]
 <h4>Simple 1 quiz website project build with django and react. </h4>
 <b>In the quizSpace folder is where the frontend code(react):</b>
 <h4>-Delete yarn.lock file</h4>
