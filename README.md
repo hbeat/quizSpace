@@ -1,8 +1,10 @@
 <h2 align="center">Project Details</h2>
-<h4>This is a small quiz website project build with django and react. </h4>
-<b>In the quizSpace folder it is where the frontend code exists, you need to do these steps first:</b>
+<h4>Simple 1 quiz website project build with django and react. </h4>
+<b>In the quizSpace folder is where the frontend code(react):</b>
 <h4>-Delete yarn.lock file</h4>
 <h4>-run npm(or yarn) install</h4>
 <h4>-run npm(or yarn) build</h4>
-<h4>then you are good to go run the project with django --> python manage.py runserver</h4>
+
+<b>Go into backend folder where the django backend code</b>
+<h4>Run this project with django --> python manage.py runserver</h4>
 
